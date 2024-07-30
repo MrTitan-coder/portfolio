@@ -32,7 +32,13 @@
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1rem;
-    color: #967155;
+    color: #db803b;
+}
+.navlist li a:hover{
+
+    cursor: pointer;
+    transition: .3s ease;
+    color: #5DB9EE;
 }
 
 .left-container,.right-container
@@ -51,7 +57,8 @@
 }
 
 .right-container {
-    background: linear-gradient(-45deg, #7eda67,#262525 65%);
+    
+    background: linear-gradient(-45deg,#7eda67,#262525 60%,  #ac7c56 25%);
     width: 30%;
 
 }
@@ -87,6 +94,7 @@
      font-weight: bold;
      animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
 }
+
 @keyframes typing {
     from 
     { width: 0; }
@@ -96,7 +104,7 @@
 
 .content .detailed{
     font-size: 1.1rem;
-    color: #fff;
+    color:#fff;
     max-width: 38rem;
     margin:1.1rem 0 3rem 0 ;
     line-height: 1.8rem;
@@ -155,19 +163,19 @@ button:nth-child(2):hover{
 
 .circle:nth-child(1){
     background: linear-gradient(90deg,transparent 50%,#262525 50%);
-    width: 34rem;
+    width: 31rem;
 }
 .circle:nth-child(2){
-    width: 29rem;
+    width: 26rem;
     background-image:url("image/pintu3.jpg") ;
     background-size: 100%;
     background-repeat: no-repeat;
     border: 1rem solid white;
     box-shadow: 0 0 1rem #fff
     ,inset 0 0 1rem #fff,
-    0 0 2rem #db803b,
-    inset 0 0 2rem #db803b, 0 0 4em #db803b
-    ,inset 0 0 4em #db803b;
+    0 0 2rem #7eda67,
+    inset 0 0 2rem #db803b, 0 0 4em #7eda67
+    ,inset 0 0 4em #db803b
     
 
 }

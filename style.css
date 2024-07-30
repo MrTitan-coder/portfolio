@@ -167,7 +167,7 @@ button:nth-child(2):hover{
 }
 .circle:nth-child(2){
     width: 26rem;
-    background-image:url("image/pintu3.jpg") ;
+    background-image:url("./image/pintu3.jpg") ;
     background-size: 100%;
     background-repeat: no-repeat;
     border: 1rem solid white;
